@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    margin: 0px 50px;
+
+}
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgb(89, 177, 236);
+}
+.logo{
+    float: left;
+}
+.header h1{
+   text-align: center;
+    font-size: 50px;
+    color: rgba(226, 41, 155, 0.945);
+    padding-top: 20px;
+    text-transform: inherit;
+}
+.menubar{
+    width: auto;
+    height: 85px;
+    background-color: lightseagreen;
+}
+.menubar ul li{
+    list-style: none;
+   display: inline-block;
+   text-align: right;
+}
+.menubar ul li a{
+    display: block;
+ font-size: 20px;
+ padding: 30px 40px;
+ 
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+ 
+}
+.menubar ul li a:hover{
+    color: rgb(222, 245, 122);
+    background-color: maroon;
+}
+.ima{
+    margin: 0px;
+    padding: 0px;
+}
+.contact{
+    width: auto;
+    height: 50px;
+    padding: 10px 0px;
+
+    background-color: rgba(24, 202, 233, 0.747);
+}
+.contact h2{
+     font-size: 30px;
+     color: magenta;
+     text-align: center;
+     padding-top: 0px;
+
+}
+  .footer{
+      width: auto;
+      height: 300px;
+      background-color: rgba(12, 73, 83, 0.842););
+  }  
+  .naim{
+      width: 40%;
+      height: 100%;
+      float: left;
+     
+      
+  }
+  .f{
+      text-align: right;
+      padding: 0px 10px;
+  }
+  .sub{
+      width: 100px;
+      height: 50px;
+   text-align: center;
+   size: 30px;
+   border-radius: 5px;
+   background-color: coral;
+   font-size: 25px;
+   color: cornsilk;
+   margin-top: 10px;
+  
+   
+    
+    margin-left: 23%;
+  }
