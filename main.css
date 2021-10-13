@@ -67,31 +67,73 @@
   .footer{
       width: auto;
       height: 300px;
-      background-color: rgba(12, 73, 83, 0.842););
+      background-color: rgba(12, 133, 151, 0.842););
   }  
   .naim{
-      width: 40%;
-      height: 100%;
+      width: 60%;
+      height: 80%;
       float: left;
+      background-color: rgb(32, 142, 206);
+      position: relative;
      
-      
   }
+
+
   .f{
       text-align: right;
       padding: 0px 10px;
+      
   }
   .sub{
-      width: 100px;
+      width: 120px;
       height: 50px;
-   text-align: center;
-   size: 30px;
+     text-align: center;
+
+ 
    border-radius: 5px;
    background-color: coral;
    font-size: 25px;
    color: cornsilk;
    margin-top: 10px;
   
-   
-    
-    margin-left: 23%;
+    margin-left: 3%;
   }
+  .tp{
+    height: 100%;
+    width: 100%;
+    
+    border-radius: 5px;
+  }
+  .center{
+    width: 304px;
+    height:300px;
+    float: left;
+ 
+    border-radius: 15px;
+    margin: 10px 4px;
+   padding: 10px;
+}
+.about{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(89, 177, 236);
+    position: relative;
+}
+.about::after{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+   
+    content: "Our team of professionals has years’ long experience and expertise to bring life to your brand and product line . Our services are highly customized around users’ preferences and experiences.Our services portfolio expand from clouding your data to representing it in the best words, with the right imagery, to the perfect mix of audience. We aim to reshape businesses into brands.The mission of TechAbout is to embed innovative techniques that are designed by tech-experts. The presence of our company has been for more than an year with a proven track record in the industry and our services provided to a large number of clients sets us apart.The mission of TechAbout is to embed innovative techniques that are designed by tech-experts. The presence of our company has been for more than an year with a proven track record in the industry and our services provided to a large number of clients sets us apart.The mission of TechAbout is to embed innovative techniques that are designed by tech-experts. The presence of our company has been for more than an year with a proven track record in the industry and our services provided to a large number of clients sets us apart.";
+    left: 0px;
+    top: 0px;
+    background-color: rgb(134, 9, 57);
+    font-size: 20px;
+    color: cadetblue;
+    overflow: scroll;
+}
+.map{
+    float: right;
+    width: 50%;
+    background-color: rgba(226, 41, 155, 0.945);
+}
